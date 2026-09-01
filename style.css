@@ -11,7 +11,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow: hidden;
 }
 
 .header {
@@ -53,8 +52,8 @@ header ul li a {
 }
 
 .main .main-right {
-  margin: 100px;
-  width: 530px;
+  margin: 60px;
+  width: 600px;
 }
 
 .main .main-right h1 {
@@ -65,34 +64,61 @@ header ul li a {
 .main .main-right p {
   margin-top: 20px;
   line-height: 20px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .main .main-right .buttons {
   position: relative;
 }
 
-.main .main-right .buttons a {
+.main .main-right .buttons .wep-app {
   position: absolute;
   top: 20px;
-  background-color: green;
+  background-color: rgb(65, 188, 65);
   text-decoration: none;
   color: #fff;
   padding: 14px;
   border-radius: 10px;
   font-size: 20px;
+  font-weight: bold;
+  top: 40px;
 }
 
-.main .main-right .buttons button {
+.main .main-right .buttons .app {
   position: absolute;
-  left: 230px;
-  top: 20px;
+  width: 150px;
+  right: 200px;
+  top: 40px;
   background-color: #fff;
+  border: 2px solid green;
   padding: 14px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
-.main-left img {
-  margin-right: 882px;
+.main-left .hero-img {
+  transform: translateY(-200px);
+  margin-right: 750px;
+  width: 440px;
+}
+
+.sevices {
+  position: relative;
+}
+
+.sevices h4 {
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  top: -250px;
+  margin: 60px;
+}
+
+.sevices img{
+  width: 70px;
+  position: absolute;
+  top: -150px;
+  right: 50px;
 }
