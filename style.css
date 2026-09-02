@@ -116,9 +116,133 @@ header ul li a {
   margin: 60px;
 }
 
-.sevices img{
-  width: 70px;
+.sevices .star {
+  width: 68px;
   position: absolute;
   top: -150px;
   right: 50px;
+}
+
+.sevices .commend {
+  font-size: 20px;
+  position: absolute;
+  top: -80px;
+  right: 55px;
+}
+
+.sevices .car {
+  width: 70px;
+  position: absolute;
+  top: -150px;
+  right: 160px;
+}
+
+.sevices .transport {
+  font-size: 20px;
+  position: absolute;
+  top: -80px;
+  right: 160px;
+}
+
+.sevices .air {
+  width: 74px;
+  position: absolute;
+  top: -150px;
+  right: 282px;
+}
+
+.sevices .travel {
+  font-size: 20px;
+  position: absolute;
+  top: -80px;
+  right: 280px;
+}
+
+.sevices .food {
+  width: 70px;
+  position: absolute;
+  top: -150px;
+  right: 400px;
+}
+
+.sevices .foodd {
+  font-size: 20px;
+  position: absolute;
+  top: -80px;
+  right: 395px;
+}
+
+.sevices .wallet {
+  width: 70px;
+  position: absolute;
+  top: -150px;
+  right: 520px;
+}
+
+.sevices .wallett {
+  font-size: 20px;
+  position: absolute;
+  top: -80px;
+  right: 500px;
+}
+
+.sevices .bimeh {
+  width: 70px;
+  position: absolute;
+  top: -150px;
+  right: 640px;
+}
+
+.sevices .bimehh {
+  font-size: 20px;
+  position: absolute;
+  top: -80px;
+  right: 640px;
+}
+
+.sevices .more {
+  font-size: 20px;
+  position: absolute;
+  top: -130px;
+  right: 780px;
+}
+
+.sevices .more-visit {
+  font-size: 20px;
+  position: absolute;
+  top: -100px;
+  right: 760px;
+}
+
+.main-service {
+  position: relative;
+}
+
+.snapp-shop h4 {
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  margin: 20px;
+  color: rgb(65, 63, 63);
+}
+
+.snapp-shop p {
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  margin: 10px;
+  right: 10px;
+  color: rgb(93, 92, 92);
+}
+
+.main-service ul li {
+  list-style: none;
+}
+
+.snapp-shop img {
+  width: 80px;
+  position: absolute;
+  right: 250px;
+  margin: 20px;
 }
