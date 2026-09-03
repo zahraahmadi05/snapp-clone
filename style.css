@@ -218,7 +218,11 @@ header ul li a {
   position: relative;
 }
 
-.snapp-shop h4 {
+.main-service ul li {
+  list-style: none;
+}
+
+.taxi h4 {
   font-size: 20px;
   position: absolute;
   top: 10px;
@@ -227,8 +231,8 @@ header ul li a {
   color: rgb(65, 63, 63);
 }
 
-.snapp-shop p {
-  font-size: 20px;
+.taxi p {
+  font-size: 18px;
   position: absolute;
   top: 50px;
   margin: 10px;
@@ -236,13 +240,463 @@ header ul li a {
   color: rgb(93, 92, 92);
 }
 
-.main-service ul li {
-  list-style: none;
-}
-
-.snapp-shop img {
-  width: 80px;
+.taxi img {
+  width: 70px;
   position: absolute;
   right: 250px;
+  margin: 20px;
+}
+
+.derivery {
+  position: relative;
+}
+
+.derivery h4 {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(65, 63, 63);
+  top: 120px;
+  margin: 20px;
+}
+
+.derivery p {
+  font-size: 18px;
+  position: absolute;
+  top: 170px;
+  right: 18px;
+  color: rgb(93, 92, 92);
+}
+
+.derivery img {
+  width: 70px;
+  position: absolute;
+  right: 250px;
+  margin: 20px;
+  top: 100px;
+}
+
+.hotel {
+  position: relative;
+}
+
+.hotel h4 {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(65, 63, 63);
+  top: 220px;
+  margin: 22px;
+}
+
+.hotel p {
+  font-size: 18px;
+  position: absolute;
+  top: 270px;
+  right: 20px;
+  color: rgb(93, 92, 92);
+}
+
+.hotel img {
+  width: 70px;
+  position: absolute;
+  right: 250px;
+  margin: 20px;
+  top: 210px;
+}
+
+.order-food {
+  position: relative;
+}
+
+.order-food h4 {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(65, 63, 63);
+  top: 30px;
+  right: 440px;
+}
+
+.order-food p {
+  font-size: 18px;
+  position: absolute;
+  color: rgb(93, 92, 92);
+  top: 60px;
+  right: 440px;
+}
+
+.order-food img {
+  width: 70px;
+  position: absolute;
+  right: 700px;
+  top: 10px;
+}
+
+.snapp-pay {
+  position: relative;
+}
+
+.snapp-pay h4 {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(65, 63, 63);
+  top: 130px;
+  right: 440px;
+}
+
+.snapp-pay p {
+  font-size: 18px;
+  position: absolute;
+  color: rgb(93, 92, 92);
+  top: 160px;
+  right: 440px;
+}
+
+.snapp-pay img {
+  width: 70px;
+  position: absolute;
+  right: 700px;
+  top: 110px;
+}
+
+.snapp-bimeh {
+  position: relative;
+}
+
+.snapp-bimeh h4 {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(65, 63, 63);
+  top: 240px;
+  right: 440px;
+}
+
+.snapp-bimeh p {
+  font-size: 18px;
+  position: absolute;
+  color: rgb(93, 92, 92);
+  top: 270px;
+  right: 440px;
+}
+
+.snapp-bimeh img {
+  width: 70px;
+  position: absolute;
+  right: 700px;
+  top: 230px;
+}
+
+.supermarket {
+  position: relative;
+}
+
+.supermarket h4 {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(65, 63, 63);
+  top: 30px;
+  right: 840px;
+}
+
+.supermarket p {
+  font-size: 18px;
+  position: absolute;
+  color: rgb(93, 92, 92);
+  top: 60px;
+  right: 840px;
+}
+
+.supermarket img {
+  width: 70px;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+
+.tiket-air {
+  position: relative;
+}
+
+.tiket-air h4 {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(65, 63, 63);
+  top: 130px;
+  right: 840px;
+}
+
+.tiket-air p {
+  font-size: 18px;
+  position: absolute;
+  color: rgb(93, 92, 92);
+  top: 160px;
+  right: 840px;
+}
+
+.tiket-air img {
+  width: 70px;
+  position: absolute;
+  left: 30px;
+  top: 113px;
+}
+
+.driver {
+  position: relative;
+}
+
+.driver h4 {
+  font-size: 20px;
+  position: absolute;
+  color: rgb(65, 63, 63);
+  top: 240px;
+  right: 840px;
+}
+
+.driver p {
+  font-size: 18px;
+  position: absolute;
+  color: rgb(93, 92, 92);
+  top: 270px;
+  right: 840px;
+}
+
+.driver img {
+  width: 70px;
+  position: absolute;
+  left: 30px;
+  top: 230px;
+}
+
+.ad-img {
+  position: relative;
+}
+
+.ad-img img {
+  border-radius: 10px;
+  position: absolute;
+  top: 330px;
+  height: 400px;
+}
+
+.driver-registration {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 750px;
+  background-color: rgb(204, 216, 231);
+}
+
+.driver-registration h2 {
+  position: absolute;
+  font-size: 40px;
+  color: rgb(2, 2, 71);
+  top: 10px;
+}
+
+.driver-registration p {
+  position: absolute;
+  top: 70px;
+  font-size: 25px;
+}
+
+.driver-reg {
+  position: absolute;
+  top: 130px;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(4, 154, 4);
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.driver-registration .video {
+  position: absolute;
+  top: 220px;
+  height: 650px;
+  border-radius: 10px;
+}
+
+.benefits {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.benefits .income {
+  position: absolute;
+  top: 1670px;
+  right: 30px;
+  width: 510px;
+  height: 200px;
+}
+
+.benefits .income img {
+  position: absolute;
+  top: -10px;
+  right: 150px;
+  width: 120px;
+}
+
+.benefits .income h4 {
+  position: absolute;
+  top: 70px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.benefits .income p {
+  position: absolute;
+  top: 100px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.benefits .hour {
+  position: absolute;
+  top: 1670px;
+  right: 600px;
+  background-color: rgb(255, 251, 246);
+  width: 500px;
+}
+
+.benefits .hour img {
+  position: absolute;
+  top: -10px;
+  right: 200px;
+  width: 130px;
+}
+
+.benefits .hour h4 {
+  position: absolute;
+  top: 70px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.benefits .hour p {
+  position: absolute;
+  top: 100px;
+  font-size: 19px;
+  margin: 20px;
+}
+
+.benefits .benefit {
+  background-color: rgb(255, 251, 246);
+  position: absolute;
+  top: 1950px;
+  right: 30px;
+  width: 510px;
+  height: 200px;
+}
+
+.benefits .benefit img {
+  position: absolute;
+  top: -50px;
+  right: 144px;
+  width: 130px;
+}
+
+.benefits .benefit h4 {
+  position: absolute;
+  top: 30px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.benefits .benefit p {
+  position: absolute;
+  top: 60px;
+  font-size: 19px;
+  margin: 20px;
+}
+
+.benefits .carfix {
+  position: absolute;
+  top: 1900px;
+  right: 600px;
+  background-color: rgb(255, 251, 246);
+  width: 500px;
+}
+
+.benefits .carfix img {
+  position: absolute;
+  top: -10px;
+  right: 200px;
+  width: 130px;
+}
+
+.benefits .carfix h4 {
+  position: absolute;
+  top: 70px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.benefits .carfix p {
+  position: absolute;
+  top: 100px;
+  font-size: 19px;
+  margin: 20px;
+}
+
+.benefits .sfetey {
+  background-color: rgb(255, 251, 246);
+  position: absolute;
+  top: 2150px;
+  right: 30px;
+  width: 510px;
+  height: 200px;
+}
+
+.benefits .sfetey img {
+  position: absolute;
+  top: -10px;
+  right: 150px;
+  width: 130px;
+}
+
+.benefits .sfetey h4 {
+  position: absolute;
+  top: 60px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.benefits .sfetey p {
+  position: absolute;
+  top: 90px;
+  font-size: 19px;
+  margin: 20px;
+}
+
+.benefits .support {
+  position: absolute;
+  top: 2130px;
+  right: 600px;
+  background-color: rgb(255, 251, 246);
+  width: 500px;
+}
+
+.benefits .support img {
+  position: absolute;
+  top: -10px;
+  right: 200px;
+  width: 130px;
+}
+
+.benefits .support h4 {
+  position: absolute;
+  top: 70px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.benefits .support p {
+  position: absolute;
+  top: 100px;
+  font-size: 20px;
   margin: 20px;
 }
